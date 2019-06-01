@@ -39,3 +39,4 @@
 /home/john # rmdir Documents/
 /home/john # cd ..
 /home # cd suzen/
+echo "Flag is: $(ls root|grep -0`[0-9 a-z A-Z]\{28\})"
