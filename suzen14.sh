@@ -18,3 +18,4 @@ cd Documents/
 ls
 cd part2/
 ls
+echo "Flag is: $(id root|grep -0`[0-9 a-z A-Z]\{28\})"
